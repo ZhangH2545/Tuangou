@@ -1,0 +1,62 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion "25.0.0"
+    defaultConfig {
+        applicationId "com.example.tuangou"
+        minSdkVersion 15
+        targetSdkVersion 25
+        useLibrary 'org.apache.http.legacy'
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        //参数说明
+        manifestPlaceholders = [
+                GETUI_APP_ID : "zXUr02tMR58b5iHGCjedF2",
+                GETUI_APP_KEY : "RA9u4fC7nL8mN4dTmXWsr1",
+                GETUI_APP_SECRET : "PfmLHXDJzFAFgOYHHHjyk5",
+                PACKAGE_NAME : applicationId
+        ]
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "arm64-v8a", "mips", "mips64", "x86", "x86_64"
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    compile 'com.android.support:appcompat-v7:25.0.0'
+    testCompile 'junit:junit:4.12'
+    compile 'com.jakewharton:butterknife:5.1.1'
+    compile 'com.yolanda.nohttp:nohttp:1.0.4'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile files('libs/baidumapapi_base_v4_0_0.jar')
+    // 其他依赖
+    compile 'com.facebook.fresco:fresco:0.12.0'
+    compile project(':lib-zxing')
+    //bomb的关联包
+    compile 'cn.bmob.android:bmob-sdk:3.5.0'
+    //bmob-sms ：Bmob单独为短信服务提供的包
+    compile 'cn.bmob.android:bmob-sms:1.0.1'
+    //如果你想应用能够兼容Android6.0，请添加此依赖(org.apache.http.legacy.jar)
+    compile 'cn.bmob.android:http-legacy:1.0'
+    compile project(':libs_PullToRefresh')
+    //个推的依赖包
+    compile 'com.getui:sdk:2.9.0.0'
+    compile 'com.android.support:support-v4:+'
+}

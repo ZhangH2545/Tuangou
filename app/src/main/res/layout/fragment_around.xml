@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".activity.MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <android.support.v7.widget.Toolbar
+        android:background="@color/app_yellow"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:text="周边"
+            android:textSize="25dp"/>
+    </android.support.v7.widget.Toolbar>
+
+
+</LinearLayout>

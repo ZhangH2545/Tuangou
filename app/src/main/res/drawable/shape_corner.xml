@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <stroke android:width="0.5dp" android:color="@color/divider"/>
+	<solid android:color="@color/transparent"/>
+	<corners android:radius="8dp"/>
+</shape>
+<!-- From: file:/C:/Users/Administrator/AndroidStudioProjects/tiantianxinwen/app/src/main/res/drawable/shape_corner.xml -->

@@ -1,0 +1,59 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- switchCity -->
+    <dimen name="biz_plugin_weather_selectcity_group_item_padding">14.0dip</dimen>
+    <dimen name="biz_plugin_weather_selectcity_item_textsize">13.0sp</dimen>
+    <!-- 首页 -->
+    <dimen name="round_btn_green_tk_corner">2.0dip</dimen>
+    <!-- 标题栏 -->
+    <dimen name="size_17">12.0sp</dimen>
+    <dimen name="size_18">13.0sp</dimen>
+    <dimen name="size_19">14.0sp</dimen>
+    <dimen name="size_20">15.0sp</dimen>
+    <dimen name="size_21">16.0sp</dimen>
+    <dimen name="size_22">17.0sp</dimen>
+    <dimen name="size_24">19.0sp</dimen>
+    <dimen name="common_divider_height">10.0dip</dimen>
+    <dimen name="section_text_size">18.0sp</dimen>
+    <!-- 周边 -->
+    <dimen name="comment_textSize3">12.0sp</dimen>
+    <!-- activity_near_by -->
+    <dimen name="near_by_textSize1">17.0sp</dimen>
+    <!-- 首页 -->
+    <dimen name="home_list_divider_height">20dp</dimen>
+    <!-- 首页Banner -->
+    <dimen name="home_top_center_banner_height">60dp</dimen>
+    <dimen name="home_icon_height">198dp</dimen>
+    <!-- 首页电影 -->
+    <dimen name="home_cinema_margin">10dp</dimen>
+    <dimen name="home_cinema_margin_bottom">9dp</dimen>
+    <dimen name="home_cinema_width">95dp</dimen>
+    <dimen name="home_cinema_height">125dp</dimen>
+    <!-- 全部电影界面 -->
+    <dimen name="item_mid_size">14.0sp</dimen>
+    <!-- GoodsListItem -->
+    <dimen name="tv_product_size">16.0sp</dimen>
+    <dimen name="list_image_width">98.0dip</dimen>
+    <dimen name="list_image_heigh">98.0dip</dimen>
+    <!-- list_item_looks -->
+    <dimen name="list_view_driver_height">0.5dip</dimen>
+    <dimen name="tv_shorttitle_size">12.0sp</dimen>
+    <dimen name="tv_price_type">8.0sp</dimen>
+    <dimen name="tv_price_lashou">20.0sp</dimen>
+    <dimen name="tv_price_size">18.0sp</dimen>
+    <!-- filmListItem -->
+    <dimen name="item_large_size">15.0sp</dimen>
+    <!-- 圆形控件 -->
+    <dimen name="round_corner_2dp">2.0dip</dimen>
+    <!-- 登录界面 -->
+    <dimen name="title_bar_center_textSize">20.0sp</dimen>
+    <dimen name="title_bar_righ_textSize">16.0sp</dimen>
+    <!-- 搜索界面 -->
+    <dimen name="search_hotword_height">35.0dip</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- 分享界面 -->
+    <dimen name="share_title_bar_height">44.0dip</dimen>
+
+</resources>
